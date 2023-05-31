@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* 头部 */
+body,
+html {
+  background-color: #F5F5F5;
+  min-width: 30rem;
+}
+header {
+  width: 100%;
+  height: 5rem;
+  background-color: #FF8A00;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header a {
+  width: 11.7rem;
+  height: 4rem;
+}
+header a img {
+  width: 100%;
+  height: 100%;
+}
+header .y {
+  width: 8rem;
+  height: 3.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+header .y a {
+  width: 2.7rem;
+  height: 3.4rem;
+}
+header .y a img {
+  width: 100%;
+  height: 100%;
+}
+/* 头部结束 */
+.zj {
+  width: 100%;
+  height: 4.2rem;
+  box-sizing: border-box;
+  line-height: 4.2rem;
+  padding: 0 1.7rem;
+  font-size: 1.4rem;
+  border-bottom: 1px solid #c5c5c5;
+  background-color: #fff;
+}
+.an {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  background-color: #fff;
+}
+.an div {
+  text-align: center;
+  line-height: 5rem;
+  font-size: 1.4rem;
+  border-bottom: 4px solid #d1d1d1;
+}
+.an .on {
+  border-bottom: 4px solid #ff8a00 !important;
+}
+.an .tab {
+  width: 50%;
+  height: 100%;
+}
+.box1 {
+  background-color: #fff;
+  margin-top: 0.4rem;
+}
+.box1 input {
+  width: 100%;
+  height: 5rem;
+  border: none;
+  padding: 0 1.7rem;
+  outline: none;
+  box-sizing: border-box;
+  border-bottom: 1px solid #c5c5c5;
+}
+.in {
+  border-bottom: none !important;
+}
+.box2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.box2 a {
+  text-decoration: none;
+}
+.box2 a .ljdl {
+  width: 35rem;
+  height: 5.6rem;
+  background-color: #FF8A00;
+  font-size: 2.2rem;
+  text-align: center;
+  line-height: 2.6rem;
+  color: #fff;
+  border: none;
+}
+input::-webkit-input-placeholder {
+  font-size: 1.2rem;
+}
+input::-moz-input-placeholder {
+  font-size: 1.2rem;
+}
+input::-ms-input-placeholder {
+  font-size: 1.2rem;
+}
+.wc {
+  display: flex ;
+  justify-content: center;
+}
+.wc .box3 {
+  width: 35rem;
+  height: 5rem;
+  line-height: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.wc .box3 a {
+  text-decoration: none;
+  color: #111111;
+  font-size: 1.4rem;
+}
+.wc .box3 .ys {
+  color: #ff8a00;
+}
+.box4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #c5c5c5;
+}
+.box4 #yzm {
+  margin-right: 1.7rem;
+  height: 4rem;
+  line-height: 4rem;
+  width: 15rem;
+  text-align: center;
+  font-size: 1.4rem;
+}
+.kjdl {
+  display: none;
+}
