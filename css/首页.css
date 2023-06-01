@@ -2,3 +2,461 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  background-color: #F5F5F5;
+}
+
+/* 头部 */
+header {
+  width: 100%;
+  height: 5rem;
+  background-color: #FF8A00;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header a {
+  width: 11.7rem;
+  height: 4rem;
+}
+
+header a img {
+  width: 100%;
+  height: 100%;
+}
+
+header .y {
+  width: 8rem;
+  height: 3.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .y a {
+  width: 2.7rem;
+  height: 3.4rem;
+}
+
+header .y a img {
+  width: 100%;
+  height: 100%;
+}
+
+/* 抬头 */
+
+.x1 {
+  width: 100%;
+  height: 26.3rem;
+  background: url(../image/index/banner.png) no-repeat 0rem 0rem;
+  background-size: 100%;
+  position: relative;
+}
+
+/* 点击消失按钮 */
+.span1 {
+  font-size: 1.8rem;
+  color: rgb(15, 118, 173);
+  font-weight: 600;
+  display: none;
+}
+
+.ppp {
+  font-size: 1.8rem;
+  color: rgb(15, 118, 173);
+  font-weight: 600;
+  display: block;
+}
+
+.pppp {
+  display: none;
+}
+
+.x2 {
+  width: 90%;
+  height: 3.6rem;
+  border: .2rem solid rgb(69, 69, 69);
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-radius: .5rem;
+  position: absolute;
+  bottom: 1.4rem;
+  margin-left: 1.2rem;
+
+
+}
+
+.inp1 {
+  width: 86.5%;
+  height: 2.5rem;
+  border-radius: .5rem;
+  color: #666;
+  border: none;
+  outline: none;
+  margin-left: 1rem;
+}
+
+.sp1 {
+  width: 2.3rem;
+  height: 2.3rem;
+  background: url(../image/index/seach.jpg) no-repeat 0rem 0rem;
+  background-size: 100% 100%;
+  margin-left: 1rem;
+
+}
+
+
+/* 标题 */
+
+.ul1 {
+  width: 100%;
+  height: 12.9rem;
+  background-color: #FF8A00;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.li1 {
+  width: 18%;
+  height: 70%;
+  position: relative;
+}
+
+.li1:nth-of-type(1) {
+  background: url(../image/index/index_03.png) no-repeat 0rem 0rem;
+  background-size: 100%;
+}
+
+.li1:nth-of-type(2) {
+  background: url(../image/index/index_05.png) no-repeat 0rem 0rem;
+  background-size: 100%;
+}
+
+.li1:nth-of-type(3) {
+  background: url(../image/index/index_07.png) no-repeat 0rem 0rem;
+  background-size: 100%;
+}
+
+.li1:nth-of-type(4) {
+  background: url(../image/index/index_09.png) no-repeat 0rem 0rem;
+  background-size: 100%;
+}
+
+.li1 .p1 {
+  position: absolute;
+  bottom: 0rem;
+  left: 1rem;
+  font-size: 1.4rem;
+  color: white;
+}
+
+/* 找房无忧 */
+.x3 {
+  width: 100%;
+  height: 32.3rem;
+  padding: 0.1rem 0;
+  background-color: #f5f5f5;
+}
+
+.x3 img {
+  width: 100%;
+  margin-top: 1.4rem;
+}
+
+/* 热门房源 */
+
+.x4 {
+  width: 100%;
+  height: 56.8rem;
+}
+
+.p2 {
+  width: 100%;
+  height: 7rem;
+  background-color: #FF8A00;
+  color: white;
+  font-weight: 600;
+}
+
+.sp2 {
+  display: inline-block;
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-left: 2.5rem;
+}
+
+.sp3 {
+  display: inline-block;
+  margin-left: 2.5rem;
+  margin-top: 0.3rem;
+}
+
+.ul2 {
+  width: 90%;
+  height: 49.8rem;
+  list-style: none;
+  margin: 0 auto;
+
+
+}
+
+.li2 {
+  width: 100%;
+  height: 16.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid red;
+}
+
+.li2:nth-of-type(3) {
+  border: none;
+}
+
+.x5 {
+  width: 9.9rem;
+  height: 9.9rem;
+  flex: 1;
+
+}
+
+.x5 img {
+  width: 9.5rem;
+  height: 9.5rem;
+}
+
+.x6 {
+  flex: 2;
+  overflow: hidden;
+  margin-left: 1rem;
+}
+
+.h11 {
+  width: 23rem;
+  font-size: 2.1rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-bottom: .8rem;
+}
+
+.p3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.p4 {
+  margin-bottom: 1.3rem;
+}
+
+.a2 {
+  display: inline-block;
+  background-color: #f4f7f9;
+  color: #849aae;
+  padding: 0.2rem .3rem;
+}
+
+.a2 {
+  margin-left: 1rem;
+}
+
+.sp4 {
+  float: right;
+  color: #ff8a00;
+  font-size: 1.3rem;
+
+}
+
+.sp5 {
+  float: right;
+  color: #999;
+}
+
+/* 热门关注 */
+.x7 {
+  width: 100%;
+  height: 22.5rem;
+}
+
+.ul3 {
+  width: 100%;
+  height: 6.5rem;
+  display: flex;
+  list-style: none;
+  border-bottom: 1px solid #ff8a00;
+  font-size: 2rem;
+}
+
+.ul3 a {
+  flex: 1;
+  color: #666666;
+  text-align: center;
+  line-height: 6.5rem;
+
+}
+
+.li4 li {
+  color: #ff8a00;
+  border-bottom: 1px solid #ff8a00;
+}
+
+a {
+  text-decoration: none;
+}
+
+.x8 {
+  width: 100%;
+  height: 16rem;
+  display: flex;
+}
+
+.ul4 {
+  width: 16.5rem;
+  height: 13.2rem;
+  list-style: none;
+  width: 16.5rem;
+  height: 13.2rem;
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+}
+
+.li5 {
+  height: 3.3rem;
+  line-height: 3rem;
+  margin-left: 2rem;
+}
+
+.ul4 a {
+  color: #666;
+  font-size: 1.4rem;
+}
+
+/* 底部链接 */
+.x9 {
+  width: 100%;
+  padding-bottom: 2rem;
+  background-color: #2F3130;
+}
+
+.h12 {
+  width: 90%;
+  height: 4.8rem;
+  color: #939494;
+  border-bottom: 1px solid #3e403f;
+  margin: 0 auto;
+  line-height: 4.8rem;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.x10 {
+  width: 90%;
+  margin: 0 auto;
+  color: #939494;
+  font-size: 1.4rem;
+}
+
+.ul5 {
+  display: flex;
+}
+
+.li6 {
+  flex: 1;
+  display: flex;
+
+}
+
+.img2 {
+  width: 2.1rem;
+  height: 2.5rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.x11 {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.p7 {
+  text-align: center;
+  margin-top: .5rem;
+}
+
+.p7:nth-of-type(1) {
+  margin-top: 2rem;
+}
+
+/* 底部 */
+.x12 {
+  width: 100%;
+  height: 5.9rem;
+  margin-top: 2rem;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.x13 {
+  flex: 2;
+  display: flex;
+  position: relative;
+}
+
+.x14 {
+  flex: 1;
+}
+
+.x13 img {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-left: 3.5rem;
+  margin-top: 1.5rem;
+}
+
+.x15 {
+  flex: 2;
+}
+
+.x16 {
+  flex: 3;
+}
+
+.p8 {
+  font-size: 2rem;
+  color: white;
+  margin-top: 0.3rem;
+}
+
+.p9 {
+  font-size: 1.4rem;
+  color: white;
+
+}
+
+.p10 {
+  width: 100%;
+  height: 100%;
+  font-size: 1.8rem;
+  color: white;
+  text-align: center;
+  line-height: 5.9rem;
+
+}
+
+.sp6 {
+  position: absolute;
+  left: 0;
+
+}
+
+.img3 {
+  width: 1.6rem;
+  height: 1.6rem;
+  z-index: 111;
+}

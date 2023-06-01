@@ -1,18 +1,31 @@
-// 动态配置rem
+var x = document.getElementsByClassName('img3')[0];
+var k = document.querySelector(".x12")
 
-// 默认1rem  10px
-
-function setRem() {
-  var uiWidth = 375;
-
-  var clientWidth =
-    document.documentElement.clientWidth || document.body.clientWidth;
-
-  var html = document.querySelector("html");
-
-  html.style.fontSize = (clientWidth / uiWidth) * 10 + "px";
+x.onclick = function () {
+    k.style.display = "none";
 }
 
-window.onresize = setRem;
+/* 点击消失按钮 */
+var f = document.querySelector(".span1");
+var q = document.querySelector(".inp1");
 
-window.onload = setRem;
+f.onclick = function () {
+    var p = q.value;
+    if (p.length > 0) {
+        q.value = "";
+        f.className = "pppp"
+
+    }
+}
+q.onclick = function () {
+
+
+    if (q.value > 0) {
+        var o = q.value;
+
+    }
+
+    q.addEventListener('input', function () {
+        f.className = "ppp"
+    })
+}
