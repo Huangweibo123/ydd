@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>登录页面</title>
+    <link rel="stylesheet" href="./css/登录页面.css" />
+    <script src="./js/rem.js"></script>
+  </head>
+
+  <body>
+    <!-- 头部 -->
+    <header>
+      <a href="./首页.html"><img src="./image/index/logo.jpg" alt="" /></a>
+      <div class="y">
+        <a href="./我的页面.html"> <img src="./image/index/my.jpg" alt="" /></a>
+        <a href="#"><img src="./image/index/xiazai.jpg" alt="" /></a>
+      </div>
+    </header>
+    <p class="zj"><strong>首页</strong> > 我的 > 登录</p>
+    <div class="an">
+      <div class="tab on">普通登录</div>
+      <div class="tab">验证码快捷登录</div>
+    </div>
+    <!-- 普通登录 -->
+    <div class="yc ptdl">
+      <div class="box1">
+        <input type="text" placeholder="请输入手机号码" />
+        <input type="text" placeholder="请输入密码" />
+      </div>
+      <p class="box2">
+        <a href="./已登录页面.html"><button class="ljdl">立即登录</button></a>
+      </p>
+    </div>
+    <!-- 快捷登录 -->
+    <div class="yc kjdl">
+      <div class="box1">
+        <p class="box4">
+          <input class="in" type="text" placeholder="请输入手机号码" /><button
+            id="yzm"
+          >
+            发送验证码
+          </button>
+        </p>
+        <input type="text" placeholder="请输入短信中的验证码" />
+      </div>
+      <p class="box2">
+        <a href="./已登录页面.html"><button class="ljdl">验证码登录</button></a>
+      </p>
+    </div>
+    <div class="wc">
+      <div class="box3">
+        <a class="ys" href="./注册.html">立即注册</a>
+        <a href="./找回密码.html">忘记密码</a>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="./js/找回密码-登录页面.js"></script>
